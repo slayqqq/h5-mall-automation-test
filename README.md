@@ -19,7 +19,7 @@
 | 移动端模拟 | Chrome mobile emulation（iPhone 12 Pro） |
 | 登录态方案 | Cookie 注入（绕开图形 + 短信验证码） |
 | 用例管理 | Excel / 飞书表格 |
-| AI 辅助 | LLM（辅助用例修正、脚本调试、报告整理） |
+| AI 辅助 | LLM（辅助修正与优化） |
 
 ## 📊 测试成果
 

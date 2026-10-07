@@ -49,12 +49,10 @@ h5_mall_test/
 ├── testcases/
 │   └── test_login.py         # 6 条 UI 自动化用例
 ├── pages/                    # 页面对象（POM，可扩展）
-├── screenshots/              # 运行时自动截图
+├── screenshots/             # 运行时自动截图
 ├── reports/                 # 测试报告、Allure 产物
 ├── docs/
 │   ├── 最终测试报告.md        # 完整测试报告
-│   ├── 接口测试操作手册.md    # Charles + Postman 操作手册
-│   ├── 面试题与标准答案.md
 │   └── 电科商城H5测试用例集.xlsx
 └── .gitignore
 ```

@@ -1,5 +1,12 @@
 # 电科商城 H5 用户端完整测试实战
 
+![Python](https://img.shields.io/badge/Python-3.11-blue)
+![Selenium](https://img.shields.io/badge/Selenium-4-green)
+![pytest](https://img.shields.io/badge/pytest-9.1-yellow)
+![Allure](https://img.shields.io/badge/Allure-Report-red)
+![Postman](https://img.shields.io/badge/Postman-24%2F24%20passed-orange)
+![Platform](https://img.shields.io/badge/Platform-H5%20%7C%20Mobile-lightgrey)
+
 > 个人测试作品项目：在无需求文档、无源码、无后台权限的条件下，对企业内部福利商城 H5 完成黑盒测试闭环。
 
 ## 📌 项目简介
@@ -30,6 +37,18 @@
 | 接口测试断言 | 4 个只读接口 × 6 条 = **24 条** | **24/24 通过**，平均响应 491ms |
 | UI 自动化用例 | **6 条**（登录态/首页/关键词/搜索框/搜索流程/购物车） | **4 passed, 2 skipped**，127s |
 | 真实缺陷 | **3 个**（入口 502 / 订单页无法返回 / iPad 适配） | 已记录 |
+
+## 📸 测试报告截图
+
+### 接口测试（Postman 24/24 通过）
+
+![接口测试结果](reports/接口测试结果.png)
+
+### UI 自动化（Allure 报告）
+
+![Allure 总览](reports/Allure总览.png)
+
+![Allure 用例详情](reports/Allure用例详情.png)
 
 ## 🐛 真实缺陷清单
 

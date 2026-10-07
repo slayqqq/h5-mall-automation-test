@@ -1,0 +1,39 @@
+# === 敏感信息（绝对不能传 GitHub）===
+config.py
+*.cookies.json
+cookies.json
+
+# === Python 缓存 ===
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+
+# === 本地依赖目录（体积大，不传）===
+.pylibs/
+venv/
+.venv/
+
+# === chromedriver（本机用，不传）===
+chromedriver.exe
+chromedriver
+geckodriver.exe
+
+# === Allure 生成产物（不传，体积大）===
+allure-results/
+allure-report/
+reports/allure-results/
+reports/allure-report/
+
+# === 临时截图（保留少量证据截图，失败截图不传）===
+screenshots/*_失败.png
+screenshots/test_*.png
+
+# === IDE ===
+.idea/
+.vscode/
+*.swp
+
+# === 系统 ===
+.DS_Store
+Thumbs.db

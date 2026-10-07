@@ -1,0 +1,101 @@
+Windows PowerShell
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+PS C:\Users\CrankixxBaileys> cd C:\Users\CrankixxBaileys\Doubao\chats\2026-10-02\new-chat\h5_mall_test
+PS C:\Users\CrankixxBaileys\Doubao\chats\2026-10-02\new-chat\h5_mall_test> $env:PYTHONPATH = "C:\Users\CrankixxBaileys\Doubao\chats\2026-10-02\new-chat\.pylibs"
+PS C:\Users\CrankixxBaileys\Doubao\chats\2026-10-02\new-chat\h5_mall_test> python -m pytest testcases/test_login.py -v -s
+================================================= test session starts =================================================
+platform win32 -- Python 3.11.9, pytest-9.1.1, pluggy-1.6.0 -- C:\Program Files\Python311\python.exe
+cachedir: .pytest_cache
+rootdir: C:\Users\CrankixxBaileys\Doubao\chats\2026-10-02\new-chat\h5_mall_test
+plugins: allure-pytest-2.16.0
+collected 4 items
+
+testcases/test_login.py::TestLoginState::test_no_redirect_to_login 当前URL: https://app.cetconline.com/mallapp/welfareMallTabs/welfareTemplateHome
+PASSED
+testcases/test_login.py::TestLoginState::test_page_loaded 页面文本长度: 1815
+页面前500字: 搜索
+推荐
+食品生鲜
+手机数码
+家庭绿电
+家用电器
+个护美妆
+家居家装
+服装服饰
+电脑办公
+箱包珠宝
+运动健身
+汽车养护
+母婴玩具
+文创文娱
+医药保健
+分类
+暂无公告
+电科甄选
+企业福利
+乡村振兴
+统一供餐
+电科商旅
+办公用品 工业品
+元器件
+电科工装
+餐卡超市
+好物一站购
+智启生活
+品牌直营
+新品好物
+悦享优惠
+日用百货
+个护美妆
+焕新家电
+猜你喜欢
+福临门 长粒香大米 东北大米 10斤
+¥30.53
+¥79.90
+已售5000+件
+京东
+陕西绥德 佳晨 狗头枣礼盒 2kg
+¥52.00
+¥60.00
+已售10000+件
+佳晨核桃
+四川叙永 恒升优礼乌蒙山大米100元组合套餐（5kg+3kg )
+¥100.00
+¥166.00
+已售10000+件
+恒升农业果园直发旗舰店
+蛋糕叔叔充值卡
+¥200.00
+¥235.00
+已售10000+件
+电科自营官方店
+陕西绥德 优质大枣 4斤
+¥68.00
+¥88.00
+已售10000+件
+黄土恋歌食品生鲜旗舰店
+中盐 精制盐500g【加碘 井矿盐】 家用调味品细盐 中盐出品
+¥2.33
+¥6.00
+已售3000+件
+京东
+中盐 天山湖盐300g【
+PASSED
+testcases/test_login.py::TestHomepage::test_homepage_has_content HTML长度: 156307
+HTML前500字: <html lang="en" class="vegraytheme" style="font-size: 16.64px;"><head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta http-equiv="Expires" content="0">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta http-equiv="Cache-control" content="no-cache, no-store, must-revalidate">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="format-detection" content="email=no">
+    <meta name="viewport" content="width=device-width,
+首页命中关键词: ['商城', '商品', '购物', 'welfare', 'mall', '电科']
+PASSED
+testcases/test_login.py::TestSearchFlow::test_search_box_exists 找到搜索框: input[type='search']
+PASSED
+
+============================================ 4 passed in 81.78s (0:01:21) =============================================
+PS C:\Users\CrankixxBaileys\Doubao\chats\2026-10-02\new-chat\h5_mall_test>
